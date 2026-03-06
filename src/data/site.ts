@@ -1,0 +1,56 @@
+import type { Translations } from './i18n'
+
+export interface NavItem {
+  labelKey: keyof Translations
+  href: string
+}
+
+export interface ContactLink {
+  label: string
+  href: string
+}
+
+export interface HeroStat {
+  value: string
+  labelKey: keyof Translations
+  align?: 'left' | 'right' | 'center'
+}
+
+export interface FloatingParticle {
+  delay: number
+  x: string
+  y: string
+  size: number
+}
+
+export const siteConfig = {
+  logo: 'portfolio.',
+  copyrightYear: 2026,
+
+  navItems: [
+    { labelKey: 'navExperience', href: '#experience' },
+    { labelKey: 'navStack', href: '#stack' },
+    { labelKey: 'navContact', href: '#contact' },
+  ] satisfies NavItem[],
+
+  contactLinks: [
+    { label: 'GitHub', href: '#' },
+    { label: 'LinkedIn', href: '#' },
+    { label: 'Email', href: 'mailto:hello@yourdomain.com' },
+  ] satisfies ContactLink[],
+
+  heroStats: {
+    years: { value: '7+', labelKey: 'yearsExp' },
+    projects: { value: '5+', labelKey: 'projects' },
+    companies: { value: '3', labelKey: 'companies' },
+  } satisfies Record<string, HeroStat>,
+
+  floatingParticles: [
+    { delay: 0, x: '10%', y: '20%', size: 6 },
+    { delay: 1.2, x: '85%', y: '15%', size: 4 },
+    { delay: 2.5, x: '70%', y: '60%', size: 5 },
+    { delay: 0.8, x: '25%', y: '75%', size: 3 },
+    { delay: 1.8, x: '50%', y: '30%', size: 4 },
+    { delay: 3.2, x: '90%', y: '80%', size: 6 },
+  ] satisfies FloatingParticle[],
+} as const
