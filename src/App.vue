@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
 import StackSection from '@/components/StackSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
 
 provideI18n()
 </script>
@@ -18,6 +19,7 @@ provideI18n()
       <HeroSection />
       <ExperienceSection />
       <StackSection />
+      <ContactSection />
     </main>
   </div>
 </template>
