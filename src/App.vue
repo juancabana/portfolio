@@ -5,15 +5,16 @@ import HeroSection from '@/components/HeroSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
 import StackSection from '@/components/StackSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
+import { Analytics } from "@vercel/analytics/next"
 
 provideI18n()
 </script>
 
 <template>
+  <Analytics />
   <div
     class="min-h-screen bg-background text-foreground selection:bg-foreground selection:text-background overflow-x-hidden"
-    style="font-family: 'Inter', sans-serif"
-  >
+    style="font-family: 'Inter', sans-serif">
     <NavBar />
     <main>
       <HeroSection />
