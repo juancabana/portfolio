@@ -1,11 +1,11 @@
 import { ref, computed, provide, inject } from 'vue'
-import type { InjectionKey, Ref } from 'vue'
+import type { ComputedRef, InjectionKey, Ref } from 'vue'
 import { translations } from '@/data/i18n'
 import type { Lang, Translations } from '@/data/i18n'
 
 interface I18nContext {
   lang: Ref<Lang>
-  t: Ref<Translations>
+  t: ComputedRef<Translations>
   toggleLang: () => void
 }
 
