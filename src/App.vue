@@ -3,6 +3,7 @@ import { provideI18n } from '@/composables/useI18n'
 import NavBar from '@/components/NavBar.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
+import StackSection from '@/components/StackSection.vue'
 
 provideI18n()
 </script>
@@ -16,6 +17,7 @@ provideI18n()
     <main>
       <HeroSection />
       <ExperienceSection />
+      <StackSection />
     </main>
   </div>
 </template>
