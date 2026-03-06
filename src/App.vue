@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { provideI18n } from '@/composables/useI18n'
 import NavBar from '@/components/NavBar.vue'
+import HeroSection from '@/components/HeroSection.vue'
 
 provideI18n()
 </script>
@@ -12,7 +13,7 @@ provideI18n()
   >
     <NavBar />
     <main>
-      <!-- Sections will be added here -->
+      <HeroSection />
     </main>
   </div>
 </template>
