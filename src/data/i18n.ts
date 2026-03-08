@@ -11,21 +11,21 @@ export const translations = {
     availableForProjects: 'Available for projects',
 
     // Hero
-    heroSubtitle: 'Frontend Developer',
+    heroSubtitle: 'Systems Engineer - Frontend Developer',
     heroLine1: 'I build',
     heroLine2: 'digital',
-    heroLine3: 'experiences',
-    heroStats: '+5 clients · full-time employed · open to projects',
+    heroLine3: 'solutions',
+    heroStats: '+8 clients · full-time employed · open to projects',
     awsBadgeTitle: 'AWS Cloud Practitioner',
     awsBadgeSubtitle: 'Amazon Web Services — Certified',
     yearsExp: 'YEARS EXP.',
     projects: 'PROJECTS',
     companies: 'COMPANIES',
-    openToWork: 'OPEN TO WORK',
+    openToWork: 'AVAILABLE',
 
     // Experience
     expSectionLabel: 'Experience',
-    expSubtitle1: '7+ years building digital products.',
+    expSubtitle1: '2+ years building digital products.',
     expSubtitle2: 'Currently employed — available for collaborations.',
     openToFreelance: 'OPEN TO FREELANCE PROJECTS',
     fullTimeNote: 'Full-time employed — available for select projects in parallel.',
@@ -34,24 +34,18 @@ export const translations = {
     projectsWord: 'projects',
 
     // Experience data
-    exp1Company: 'Current Company',
-    exp1Role: 'Senior Frontend Developer',
+    exp1Company: 'Pragma SA.',
+    exp1Role: 'Middle Senior Frontend Developer',
     exp1Period: '2024 — Present',
-    exp1Duration: '2 years',
+    exp1Duration: '+2 years',
     exp1Desc:
       'Leading frontend architecture and working with 5 different clients on high-impact projects. Responsible for defining code standards, code reviews, and team mentoring.',
-    exp2Company: 'Second Company',
+    exp2Company: 'Siempre.NET',
     exp2Role: 'Frontend Developer',
-    exp2Period: '2021 — 2024',
-    exp2Duration: '3 years',
+    exp2Period: 'Jul. 2022 — Sep. 2022',
+    exp2Duration: '3 months',
     exp2Desc:
-      'Building scalable web applications with React, performance optimization, and mentoring junior team members. Migration of legacy codebase to modern architecture.',
-    exp3Company: 'First Company',
-    exp3Role: 'Junior Frontend Developer',
-    exp3Period: '2019 — 2021',
-    exp3Duration: '2 years',
-    exp3Desc:
-      'First professional steps building responsive interfaces and learning the fundamentals of modern frontend development. Active participation in sprints and dailies.',
+      'Responsible for developing and maintaining interfaces, creating reusable components and responsive design to deliver an intuitive, modern, and visually appealing user experience.',
 
     // Projects
     proj1Name: 'Fintech Dashboard',
@@ -63,12 +57,9 @@ export const translations = {
     proj3Name: 'SaaS Admin Panel',
     proj3Desc:
       'Multi-tenant admin panel with roles, permissions, analytics, and subscription management.',
-    proj4Name: 'HealthTech Portal',
+    proj4Name: 'Sinai Platform',
     proj4Desc:
-      'Patient portal with appointment scheduling, medical history, video consultations, and real-time notifications.',
-    proj5Name: 'EdTech Platform',
-    proj5Desc:
-      'Educational platform with interactive courses, assessment system, forum, and gamification.',
+      'Educational platform that centralizes and automates academic processes into a single system, providing administrators, teachers, and students with tools for management, traceability, reports, and real-time tracking to facilitate decision-making.',
     proj6Name: 'Corporate Website Redesign',
     proj6Desc:
       'Complete corporate site redesign with mobile-first approach, SEO optimized, and headless CMS.',
@@ -183,7 +174,7 @@ export const translations = {
     proj4Name: 'Plataforma  Sinai',
     proj4Desc:
       'Plataforma educativa que centraliza y automatiza los procesos académicos en un solo sistema, proporcionando a directivos, docentes y estudiantes herramientas para la gestión, trazabilidad, reportes y seguimiento en tiempo real, facilitando la toma de decisiones.',
-proj6Name: 'Corporate Website Redesign',
+    proj6Name: 'Corporate Website Redesign',
     proj6Desc:
       'Rediseño completo del sitio corporativo con enfoque mobile-first, SEO optimizado y CMS headless.',
     proj7Name: 'Internal Tools Dashboard',

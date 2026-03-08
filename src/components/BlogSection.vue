@@ -31,7 +31,7 @@ function findArticleBySlug(slug: string) {
 function parseHashSlug(): string | null {
   const hash = window.location.hash
   const match = hash.match(/^#blog\/(.+)$/)
-  return match ? match[1] : null
+  return match?.[1] ?? null
 }
 
 function scrollToBlog() {
