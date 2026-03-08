@@ -21,7 +21,7 @@ provideI18n()
       <HeroSection />
       <ExperienceSection />
       <StackSection />
-      <BlogSection />
+      <!-- <BlogSection /> -->
       <ContactSection />
     </main>
   </div>

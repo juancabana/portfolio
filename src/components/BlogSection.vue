@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { ArrowUpRight, Clock } from 'lucide-vue-next'
 import { useI18n } from '@/composables/useI18n'
 import { useInView } from '@/composables/useInView'
@@ -24,8 +24,17 @@ const activePost = computed(() =>
     : null,
 )
 
-function handleOpen(id: number) {
-  activeArticleId.value = id
+function findArticleBySlug(slug: string) {
+  return blogArticles.find((a) => a.slug === slug) ?? null
+}
+
+function parseHashSlug(): string | null {
+  const hash = window.location.hash
+  const match = hash.match(/^#blog\/(.+)$/)
+  return match ? match[1] : null
+}
+
+function scrollToBlog() {
   const el = document.getElementById('blog')
   if (el) {
     const top = el.getBoundingClientRect().top + window.scrollY - 100
@@ -33,14 +42,51 @@ function handleOpen(id: number) {
   }
 }
 
+function handleOpen(id: number) {
+  activeArticleId.value = id
+  const article = blogArticles.find((a) => a.id === id)
+  if (article) {
+    history.pushState(null, '', `#blog/${article.slug}`)
+  }
+  scrollToBlog()
+}
+
 function handleBack() {
   activeArticleId.value = null
-  const el = document.getElementById('blog')
-  if (el) {
-    const top = el.getBoundingClientRect().top + window.scrollY - 100
-    window.scrollTo({ top, behavior: 'smooth' })
+  history.pushState(null, '', '#blog')
+  scrollToBlog()
+}
+
+function handleHashChange() {
+  const slug = parseHashSlug()
+  if (slug) {
+    const article = findArticleBySlug(slug)
+    if (article) {
+      activeArticleId.value = article.id
+      return
+    }
+  }
+  if (window.location.hash === '#blog' || !window.location.hash.startsWith('#blog/')) {
+    activeArticleId.value = null
   }
 }
+
+onMounted(() => {
+  const slug = parseHashSlug()
+  if (slug) {
+    const article = findArticleBySlug(slug)
+    if (article) {
+      activeArticleId.value = article.id
+      requestAnimationFrame(() => scrollToBlog())
+    }
+  }
+
+  window.addEventListener('popstate', handleHashChange)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('popstate', handleHashChange)
+})
 </script>
 
 <template>

@@ -120,7 +120,7 @@ export const translations = {
     contactHeading1: "Let's talk about your",
     contactHeading2: 'next project',
     contactDesc:
-      'Always open to new opportunities, interesting collaborations, or simply a good conversation about frontend.',
+      'Always open to new opportunities, interesting collaborations, or simply a good conversation about technology.',
     footerRights: 'All rights reserved',
     footerMade: 'Designed & developed by me',
   },
@@ -134,11 +134,11 @@ export const translations = {
     availableForProjects: 'Disponible para proyectos',
 
     // Hero
-    heroSubtitle: 'Frontend Developer',
+    heroSubtitle: 'Ingeniero de sistemas - Frontend Developer',
     heroLine1: 'Construyo',
-    heroLine2: 'experiencias',
+    heroLine2: 'soluciones',
     heroLine3: 'digitales',
-    heroStats: '+5 clientes · empleado full-time · abierto a proyectos',
+    heroStats: '+8 clientes · empleado full-time · abierto a proyectos',
     awsBadgeTitle: 'AWS Cloud Practitioner',
     awsBadgeSubtitle: 'Amazon Web Services — Certificado',
     yearsExp: 'AÑOS EXP.',
@@ -148,7 +148,7 @@ export const translations = {
 
     // Experience
     expSectionLabel: 'Experiencia',
-    expSubtitle1: '7+ años construyendo productos digitales.',
+    expSubtitle1: '2+ años construyendo productos digitales.',
     expSubtitle2: 'Actualmente empleado — disponible para colaboraciones.',
     openToFreelance: 'ABIERTO A PROYECTOS FREELANCE',
     fullTimeNote: 'Empleo full-time — disponible para proyectos selectos en paralelo.',
@@ -157,24 +157,18 @@ export const translations = {
     projectsWord: 'proyectos',
 
     // Experience data
-    exp1Company: 'Empresa Actual',
-    exp1Role: 'Senior Frontend Developer',
+    exp1Company: 'Pragma SA.',
+    exp1Role: 'Middle Senior Frontend Developer',
     exp1Period: '2024 — Presente',
-    exp1Duration: '2 años',
+    exp1Duration: '+2 años',
     exp1Desc:
       'Liderando la arquitectura frontend y trabajando con 5 clientes distintos en proyectos de alto impacto. Responsable de definir estándares de código, code reviews y mentoring del equipo.',
-    exp2Company: 'Segunda Empresa',
+    exp2Company: 'Siempre.NET',
     exp2Role: 'Frontend Developer',
-    exp2Period: '2021 — 2024',
-    exp2Duration: '3 años',
+    exp2Period: 'Jul. 2022 — Sept. 2022',
+    exp2Duration: '3 meses',
     exp2Desc:
-      'Desarrollo de aplicaciones web escalables con React, optimización de rendimiento y mentoring del equipo junior. Migración de legacy codebase a arquitectura moderna.',
-    exp3Company: 'Primera Empresa',
-    exp3Role: 'Junior Frontend Developer',
-    exp3Period: '2019 — 2021',
-    exp3Duration: '2 años',
-    exp3Desc:
-      'Primeros pasos profesionales construyendo interfaces responsivas y aprendiendo las bases del desarrollo frontend moderno. Participación activa en sprints y dailies.',
+      'Responsable de desarrollar y mantener interfaces, creando componentes reutilizables y un diseño responsivo para ofrecer una experiencia de usuario intuitiva, moderna y visualmente atractiva.',
 
     // Projects
     proj1Name: 'Fintech Dashboard',
@@ -186,13 +180,10 @@ export const translations = {
     proj3Name: 'SaaS Admin Panel',
     proj3Desc:
       'Panel de administración multi-tenant con roles, permisos, analytics y gestión de suscripciones.',
-    proj4Name: 'HealthTech Portal',
+    proj4Name: 'Plataforma  Sinai',
     proj4Desc:
-      'Portal de pacientes con agenda de citas, historial médico, videoconsultas y notificaciones en tiempo real.',
-    proj5Name: 'EdTech Platform',
-    proj5Desc:
-      'Plataforma educativa con cursos interactivos, sistema de evaluaciones, foro y gamificación.',
-    proj6Name: 'Corporate Website Redesign',
+      'Plataforma educativa que centraliza y automatiza los procesos académicos en un solo sistema, proporcionando a directivos, docentes y estudiantes herramientas para la gestión, trazabilidad, reportes y seguimiento en tiempo real, facilitando la toma de decisiones.',
+proj6Name: 'Corporate Website Redesign',
     proj6Desc:
       'Rediseño completo del sitio corporativo con enfoque mobile-first, SEO optimizado y CMS headless.',
     proj7Name: 'Internal Tools Dashboard',
@@ -243,7 +234,7 @@ export const translations = {
     contactHeading1: 'Hablemos de tu',
     contactHeading2: 'próximo proyecto',
     contactDesc:
-      'Siempre abierto a nuevas oportunidades, colaboraciones interesantes o simplemente una buena conversación sobre frontend.',
+      'Siempre abierto a nuevas oportunidades, colaboraciones interesantes o simplemente una buena conversación sobre tecnología.',
     footerRights: 'Todos los derechos reservados',
     footerMade: 'Diseñado & desarrollado por mí',
   },

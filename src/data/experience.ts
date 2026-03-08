@@ -69,48 +69,16 @@ export const experiences: Experience[] = [
     descKey: 'exp2Desc',
     status: 'past',
     highlightLinks: [
-      { word: 'React', href: 'https://react.dev' },
-      { word: 'performance optimization', href: 'https://web.dev/articles/vitals' },
+      { word: 'experiencia de usuario', href: 'https://portal.sinai.com.co/#hablemos' },
     ],
     projects: [
       {
         nameKey: 'proj4Name',
         descKey: 'proj4Desc',
-        url: 'https://example.com',
-        tags: ['React', 'Redux', 'Socket.io', 'Styled Components', 'Jest'],
+        url: 'https://portal.sinai.com.co/',
+        tags: ['React', 'Bootstrap', '.NET', 'Typescript', 'CSS'],
       },
-      {
-        nameKey: 'proj5Name',
-        descKey: 'proj5Desc',
-        url: 'https://example.com',
-        tags: ['Vue.js', 'Vuex', 'Firebase', 'Algolia', 'Sass'],
-      },
-    ],
-  },
-  {
-    id: 3,
-    companyKey: 'exp3Company',
-    roleKey: 'exp3Role',
-    periodKey: 'exp3Period',
-    durationKey: 'exp3Duration',
-    descKey: 'exp3Desc',
-    status: 'past',
-    highlightLinks: [
-      { word: 'responsive', href: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design' },
-    ],
-    projects: [
-      {
-        nameKey: 'proj6Name',
-        descKey: 'proj6Desc',
-        url: 'https://example.com',
-        tags: ['HTML5', 'CSS3', 'JavaScript', 'WordPress', 'PHP'],
-      },
-      {
-        nameKey: 'proj7Name',
-        descKey: 'proj7Desc',
-        url: 'https://example.com',
-        tags: ['React', 'Bootstrap', 'Chart.js', 'Node.js', 'MongoDB'],
-      },
+
     ],
   },
 ]

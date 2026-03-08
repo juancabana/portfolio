@@ -24,7 +24,7 @@ export interface FloatingParticle {
 }
 
 export const siteConfig = {
-  logo: 'portfolio.',
+  logo: 'Juan David Cabana Trejos.',
   copyrightYear: 2026,
 
   navItems: [
@@ -35,15 +35,15 @@ export const siteConfig = {
   ] satisfies NavItem[],
 
   contactLinks: [
-    { label: 'GitHub', href: '#' },
-    { label: 'LinkedIn', href: '#' },
-    { label: 'Email', href: 'mailto:hello@yourdomain.com' },
+    { label: 'GitHub', href: 'https://github.com/juancabana' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/juan-david-cabana/' },
+    { label: 'Email', href: 'mailto:juandaka78@gmail.com' },
   ] satisfies ContactLink[],
 
   heroStats: {
-    years: { value: '7+', labelKey: 'yearsExp' },
-    projects: { value: '5+', labelKey: 'projects' },
-    companies: { value: '3', labelKey: 'companies' },
+    years: { value: '2+', labelKey: 'yearsExp' },
+    projects: { value: '10+', labelKey: 'projects' },
+    companies: { value: '2', labelKey: 'companies' },
   } satisfies Record<string, HeroStat>,
 
   floatingParticles: [
