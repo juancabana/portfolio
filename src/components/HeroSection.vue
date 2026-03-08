@@ -29,7 +29,7 @@ const sectionRef = ref<HTMLElement | null>(null)
       }"
     />
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center max-w-7xl">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
       <!-- Text Content -->
       <div class="lg:col-span-7 order-2 lg:order-1">
         <p

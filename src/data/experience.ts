@@ -9,6 +9,11 @@ export interface Project {
   tags: string[]
 }
 
+export interface HighlightLink {
+  word: string
+  href: string
+}
+
 export interface Experience {
   id: number
   companyKey: keyof Translations
@@ -17,6 +22,7 @@ export interface Experience {
   durationKey: keyof Translations
   descKey: keyof Translations
   status: ExperienceStatus
+  highlightLinks: HighlightLink[]
   projects: Project[]
 }
 
@@ -29,6 +35,10 @@ export const experiences: Experience[] = [
     durationKey: 'exp1Duration',
     descKey: 'exp1Desc',
     status: 'current',
+    highlightLinks: [
+      { word: 'frontend architecture', href: 'https://patterns.dev' },
+      { word: 'code reviews', href: 'https://google.github.io/eng-practices/review/' },
+    ],
     projects: [
       {
         nameKey: 'proj1Name',
@@ -58,6 +68,10 @@ export const experiences: Experience[] = [
     durationKey: 'exp2Duration',
     descKey: 'exp2Desc',
     status: 'past',
+    highlightLinks: [
+      { word: 'React', href: 'https://react.dev' },
+      { word: 'performance optimization', href: 'https://web.dev/articles/vitals' },
+    ],
     projects: [
       {
         nameKey: 'proj4Name',
@@ -81,6 +95,9 @@ export const experiences: Experience[] = [
     durationKey: 'exp3Duration',
     descKey: 'exp3Desc',
     status: 'past',
+    highlightLinks: [
+      { word: 'responsive', href: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design' },
+    ],
     projects: [
       {
         nameKey: 'proj6Name',

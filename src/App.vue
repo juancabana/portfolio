@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
 import StackSection from '@/components/StackSection.vue'
+import BlogSection from '@/components/BlogSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import { inject as injectAnalytics } from "@vercel/analytics"
 
@@ -20,6 +21,7 @@ provideI18n()
       <HeroSection />
       <ExperienceSection />
       <StackSection />
+      <BlogSection />
       <ContactSection />
     </main>
   </div>

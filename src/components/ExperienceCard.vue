@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import { ChevronDown, Briefcase, Sparkles, ExternalLink } from 'lucide-vue-next'
 import { useI18n } from '@/composables/useI18n'
 import { useInView } from '@/composables/useInView'
+import { highlightText } from '@/utils/renderInlineMarkup'
 import type { Experience } from '@/data/experience'
 
 const props = defineProps<{
@@ -154,7 +155,7 @@ function toggleExpanded() {
 
       <!-- Description -->
       <p
-        class="text-muted-foreground/50 mt-4 max-w-lg transition-opacity duration-500"
+        class="text-muted-foreground/70 mt-4 max-w-lg transition-opacity duration-500"
         :class="isInView ? 'opacity-100' : 'opacity-0'"
         :style="{
           fontFamily: '\'Inter\', sans-serif',
@@ -163,9 +164,8 @@ function toggleExpanded() {
           lineHeight: 1.7,
           transitionDelay: `${0.5 + index * 0.15}s`,
         }"
-      >
-        {{ t[experience.descKey] }}
-      </p>
+        v-html="highlightText(t[experience.descKey], experience.highlightLinks)"
+      />
 
       <!-- Marketing line for current role -->
       <p
@@ -227,7 +227,7 @@ function toggleExpanded() {
                 />
               </a>
               <p
-                class="text-muted-foreground/50 mt-1.5 max-w-md"
+                class="text-muted-foreground/70 mt-1.5 max-w-md"
                 style="
                   font-family: 'Inter', sans-serif;
                   font-size: 0.8rem;

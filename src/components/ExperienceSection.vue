@@ -14,7 +14,7 @@ const isInView = useInView(sectionRef, { rootMargin: '-50px' })
   <section id="experience" class="py-32 px-6 md:px-16 lg:px-24">
     <div
       ref="sectionRef"
-      class="transition-opacity duration-600"
+      class="max-w-5xl mx-auto transition-opacity duration-600"
       :class="isInView ? 'opacity-100' : 'opacity-0'"
     >
       <!-- Section header -->
@@ -36,7 +36,7 @@ const isInView = useInView(sectionRef, { rootMargin: '-50px' })
 
       <!-- Marketing subtitle -->
       <p
-        class="text-muted-foreground/40 mb-16 max-w-md transition-all duration-600"
+        class="text-muted-foreground/70 mb-16 max-w-md transition-all duration-600"
         :class="isInView ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-2.5 blur-[4px]'"
         style="
           font-family: 'Inter', sans-serif;

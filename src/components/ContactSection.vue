@@ -32,7 +32,7 @@ const heading2Letters = computed(() => t.value.contactHeading2.split(''))
 
     <div
       ref="contentRef"
-      class="max-w-3xl relative transition-opacity duration-800"
+      class="max-w-5xl mx-auto relative transition-opacity duration-800"
       :class="isInView ? 'opacity-100' : 'opacity-0'"
     >
       <!-- Section label -->
@@ -80,7 +80,7 @@ const heading2Letters = computed(() => t.value.contactHeading2.split(''))
 
       <!-- Description -->
       <p
-        class="mt-8 text-muted-foreground/50 max-w-md transition-all duration-600"
+        class="mt-8 text-muted-foreground/70 max-w-md transition-all duration-600"
         :class="
           isInView
             ? 'opacity-100 translate-y-0 blur-0'
@@ -126,7 +126,7 @@ const heading2Letters = computed(() => t.value.contactHeading2.split(''))
 
     <!-- Footer -->
     <div
-      class="mt-32 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 transition-opacity duration-600"
+      class="mt-32 max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 transition-opacity duration-600 w-full"
       :class="isInView ? 'opacity-100' : 'opacity-0'"
       style="transition-delay: 1s"
     >

@@ -22,7 +22,7 @@ const filtered = computed(() =>
   <section id="stack" class="py-32 px-6 md:px-16 lg:px-24">
     <div
       ref="sectionRef"
-      class="transition-opacity duration-600"
+      class="max-w-5xl mx-auto transition-opacity duration-600"
       :class="isInView ? 'opacity-100' : 'opacity-0'"
     >
       <!-- Section header -->
