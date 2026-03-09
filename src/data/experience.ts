@@ -7,6 +7,7 @@ export interface Project {
   descKey: keyof Translations
   url: string
   tags: string[]
+  highlightLinks?: HighlightLink[]
 }
 
 export interface HighlightLink {
@@ -35,28 +36,49 @@ export const experiences: Experience[] = [
     durationKey: 'exp1Duration',
     descKey: 'exp1Desc',
     status: 'current',
-    highlightLinks: [
-      { word: 'frontend architecture', href: 'https://patterns.dev' },
-      { word: 'code reviews', href: 'https://google.github.io/eng-practices/review/' },
-    ],
+    highlightLinks: [],
     projects: [
       {
-        nameKey: 'proj1Name',
-        descKey: 'proj1Desc',
-        url: 'https://example.com',
-        tags: ['React', 'TypeScript', 'Recharts', 'TanStack Query', 'Zustand'],
+        nameKey: 'proj6Name',
+        descKey: 'proj6Desc',
+        url: 'https://www.asulado.com/',
+        tags: ['Web Sockets', 'Next.JS', 'Clean Arquitecture', 'MUI', 'Axios', 'Azure', 'Redux'],
       },
       {
-        nameKey: 'proj2Name',
-        descKey: 'proj2Desc',
-        url: 'https://example.com',
-        tags: ['Next.js', 'Tailwind CSS', 'Stripe', 'Prisma', 'PostgreSQL'],
+        nameKey: 'proj5Name',
+        descKey: 'proj5Desc',
+        url: 'https://www.proteccion.com/contenidos/personas/',
+        tags: ['React', 'TypeScript', 'msal', 'SCSS'],
+      },
+      {
+        nameKey: 'proj4Name',
+        descKey: 'proj4Desc',
+        url: 'https://www.grupomutual.fi.cr/',
+        tags: ['Next.JS', 'Micro-Frontends', 'TypeScript', 'Styled-components'],
       },
       {
         nameKey: 'proj3Name',
         descKey: 'proj3Desc',
-        url: 'https://example.com',
-        tags: ['React', 'Material UI', 'GraphQL', 'Apollo Client', 'AWS'],
+        url: 'https://www.dislicores.com/',
+        tags: ['React', 'Netlify', 'AWS', 'AI Integration', 'Chatbot'],
+      },
+      {
+        nameKey: 'proj2Name',
+        descKey: 'proj2Desc',
+        url: 'https://www.soatmundial.com.co/',
+        tags: ['React', 'Gatsby', 'Micro-frontends', 'SCSS'],
+        highlightLinks: [
+          { word: 'simuladores', href: 'https://www.proteccion.com/simuladores' },
+          { word: 'perfilador financiero', href: 'https://www.proteccion.com/perfilador' },
+          { word: 'simulators', href: 'https://www.proteccion.com/simuladores' },
+          { word: 'financial profiler', href: 'https://www.proteccion.com/perfilador' },
+        ],
+      },
+      {
+        nameKey: 'proj1Name',
+        descKey: 'proj1Desc',
+        url: 'https://mapadecrecimiento.pragma.com.co/login',
+        tags: ['Angular', 'TypeScript', 'Jasmine', 'SCSS'],
       },
     ],
   },
@@ -73,12 +95,11 @@ export const experiences: Experience[] = [
     ],
     projects: [
       {
-        nameKey: 'proj4Name',
-        descKey: 'proj4Desc',
+        nameKey: 'proj7Name',
+        descKey: 'proj7Desc',
         url: 'https://portal.sinai.com.co/',
-        tags: ['React', 'Bootstrap', '.NET', 'Typescript', 'CSS'],
+        tags: ['React', 'Bootstrap', '.NET', 'TypeScript', 'CSS'],
       },
-
     ],
   },
 ]

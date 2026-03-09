@@ -234,9 +234,8 @@ function toggleExpanded() {
                   font-weight: 300;
                   line-height: 1.6;
                 "
-              >
-                {{ t[project.descKey] }}
-              </p>
+                v-html="highlightText(t[project.descKey], project.highlightLinks || [])"
+              />
               <div class="flex flex-wrap gap-1.5 mt-3">
                 <span
                   v-for="(tag, ti) in project.tags"

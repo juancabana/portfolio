@@ -36,7 +36,7 @@ const isInView = useInView(sectionRef, { rootMargin: '-50px' })
 
       <!-- Marketing subtitle -->
       <p
-        class="text-muted-foreground/70 mb-16 max-w-md transition-all duration-600"
+        class="text-muted-foreground/70 mb-8 max-w-md transition-all duration-600"
         :class="isInView ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-2.5 blur-[4px]'"
         style="
           font-family: 'Inter', sans-serif;
@@ -50,6 +50,58 @@ const isInView = useInView(sectionRef, { rootMargin: '-50px' })
         <br />
         {{ t.expSubtitle2 }}
       </p>
+
+      <!-- Introduction -->
+      <div
+        class="mb-16 max-w-2xl space-y-4 transition-all duration-700"
+        :class="isInView ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-3 blur-[4px]'"
+        style="transition-delay: 0.3s"
+      >
+        <p
+          class="text-muted-foreground/60"
+          style="
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 300;
+            line-height: 1.7;
+          "
+        >
+          {{ t.expIntro1 }}
+        </p>
+        <p
+          class="text-muted-foreground/60"
+          style="
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 300;
+            line-height: 1.7;
+          "
+        >
+          {{ t.expIntro2 }}
+        </p>
+        <p
+          class="text-muted-foreground/60"
+          style="
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 300;
+            line-height: 1.7;
+          "
+        >
+          {{ t.expIntro3 }}
+        </p>
+        <p
+          class="text-muted-foreground/60"
+          style="
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 300;
+            line-height: 1.7;
+          "
+        >
+          {{ t.expIntro4 }}
+        </p>
+      </div>
 
       <!-- Timeline -->
       <div class="max-w-3xl">

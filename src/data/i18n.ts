@@ -33,13 +33,23 @@ export const translations = {
     showProjects: 'View',
     projectsWord: 'projects',
 
+    // Experience intro
+    expIntro1:
+      'With more than 2 years of experience in the software and IT services industry, I have had the opportunity to work on projects across diverse sectors such as insurance, banking, artificial intelligence, education, e-commerce, and internal management platforms.',
+    expIntro2:
+      'During this time, I have participated in the development and evolution of modern web applications, contributing both to building new features and improving existing platforms, always focused on creating scalable, maintainable, and user-centered solutions.',
+    expIntro3:
+      'I have worked in collaborative development environments, actively participating in code reviews, implementing best practices, and evolving modern architectures, which has allowed me to quickly adapt to different business domains and technologies.',
+    expIntro4:
+      'Below are some of the most relevant projects I have participated in throughout my professional career.',
+
     // Experience data
     exp1Company: 'Pragma SA.',
     exp1Role: 'Middle Senior Frontend Developer',
     exp1Period: '2024 — Present',
     exp1Duration: '+2 years',
     exp1Desc:
-      'Leading frontend architecture and working with 5 different clients on high-impact projects. Responsible for defining code standards, code reviews, and team mentoring.',
+      'Participation in the development and evolution of multiple digital platforms, contributing to the implementation of key features, performance improvements, and maintenance of production applications, working collaboratively under agile methodologies.',
     exp2Company: 'Siempre.NET',
     exp2Role: 'Frontend Developer',
     exp2Period: 'Jul. 2022 — Sep. 2022',
@@ -47,25 +57,30 @@ export const translations = {
     exp2Desc:
       'Responsible for developing and maintaining interfaces, creating reusable components and responsive design to deliver an intuitive, modern, and visually appealing user experience.',
 
-    // Projects
-    proj1Name: 'Fintech Dashboard',
+    // Projects — Pragma
+    proj1Name: 'Crezi',
     proj1Desc:
-      'Real-time financial panel with complex data visualization, interactive reports, and portfolio management.',
-    proj2Name: 'E-Commerce Platform',
+      'Internal platform for managing assessments and tracking the professional growth paths of company employees. It centralized information about evaluations, achievements, and progress of each employee, facilitating talent management and professional development within the organization.',
+    proj2Name: 'Seguros Mundial',
     proj2Desc:
-      'Sales platform with dynamic catalog, shopping cart, payment gateway, and admin panel.',
-    proj3Name: 'SaaS Admin Panel',
+      'Participated in the development of evolutionary improvements for the insurance sales e-commerce, implementing enhancements and new features across different micro-frontends of the platform, contributing to optimize the purchasing experience and insurance product management.',
+    proj3Name: 'Dislicores',
     proj3Desc:
-      'Multi-tenant admin panel with roles, permissions, analytics, and subscription management.',
-    proj4Name: 'Sinai Platform',
+      'Developed a proof of concept (POC) integrating an artificial intelligence agent through a chatbot, aimed at supporting company administrators with queries and access to relevant information in a conversational manner.',
+    proj4Name: 'Grupo Mutual',
     proj4Desc:
-      'Educational platform that centralizes and automates academic processes into a single system, providing administrators, teachers, and students with tools for management, traceability, reports, and real-time tracking to facilitate decision-making.',
-    proj6Name: 'Corporate Website Redesign',
+      "Participated in the development of the bank's main platform, as part of a progressive migration process from the previous website to a modern architecture. The project followed a microservices approach, successfully positioning the site as one of the highest-rated in Costa Rica.",
+    proj5Name: 'Protección',
+    proj5Desc:
+      "Was in charge of the development of iterative improvements and enhancements for the simulators and financial profiler modules of the insurer's digital platform, contributing to improving the tools that allow users to analyze and plan their financial decisions.",
+    proj6Name: 'Asulado',
     proj6Desc:
-      'Complete corporate site redesign with mobile-first approach, SEO optimized, and headless CMS.',
-    proj7Name: 'Internal Tools Dashboard',
+      'Currently participating in the development of a platform focused on the digitalization and modernization of a complex payment system, contributing to the implementation of new features and process optimization within the platform ecosystem.',
+
+    // Projects — Siempre.NET
+    proj7Name: 'Sinai Platform',
     proj7Desc:
-      'Internal tools for inventory management and operations team reports.',
+      'Educational platform that centralizes and automates academic processes into a single system, providing administrators, teachers, and students with tools for management, traceability, reports, and real-time tracking to facilitate decision-making.',
 
     // Stack
     stackLabel: 'Tech Stack',
@@ -85,23 +100,28 @@ export const translations = {
     // Blog
     navBlog: 'Blog',
     blogLabel: 'Blog',
-    blogSubtitle: 'Thoughts on frontend architecture, tooling, and lessons learned building products at scale.',
+    blogSubtitle:
+      'Thoughts on frontend architecture, tooling, and lessons learned building products at scale.',
     blogMinRead: 'min read',
     readMore: 'Read more',
     blog1Title: 'From Redux to Zustand: A Migration Story',
-    blog1Excerpt: 'How we migrated a large-scale React app from Redux to Zustand — reducing boilerplate by 80% and bundle size by 12%.',
+    blog1Excerpt:
+      'How we migrated a large-scale React app from Redux to Zustand — reducing boilerplate by 80% and bundle size by 12%.',
     blog1Date: 'Jan 2025',
     blog1Tag: 'State Management',
     blog2Title: 'Testing React Components: The Pragmatic Way',
-    blog2Excerpt: 'A silent regression taught me the hard way why testing React components matters more than coverage numbers.',
+    blog2Excerpt:
+      'A silent regression taught me the hard way why testing React components matters more than coverage numbers.',
     blog2Date: 'Nov 2024',
     blog2Tag: 'Testing',
     blog3Title: 'Design Tokens + Tailwind v4: A Practical Guide',
-    blog3Excerpt: 'How Tailwind v4 finally makes design tokens first-class citizens with the new @theme directive.',
+    blog3Excerpt:
+      'How Tailwind v4 finally makes design tokens first-class citizens with the new @theme directive.',
     blog3Date: 'Sep 2024',
     blog3Tag: 'Design Systems',
     blog4Title: 'Micro-Frontends: When (Not) to Use Them',
-    blog4Excerpt: 'Two projects, opposite outcomes. A decision framework for evaluating the micro-frontend architecture.',
+    blog4Excerpt:
+      'Two projects, opposite outcomes. A decision framework for evaluating the micro-frontend architecture.',
     blog4Date: 'Jul 2024',
     blog4Tag: 'Architecture',
     blogBackToArticles: 'Back to articles',
@@ -147,13 +167,23 @@ export const translations = {
     showProjects: 'Ver',
     projectsWord: 'proyectos',
 
+    // Experience intro
+    expIntro1:
+      'Con más de 2 años de experiencia en la industria del software y servicios TI, he tenido la oportunidad de trabajar en proyectos para diversos sectores como seguros, banca, inteligencia artificial, educación, e-commerce y plataformas de gestión interna.',
+    expIntro2:
+      'Durante este tiempo he participado en el desarrollo y evolución de aplicaciones web modernas, contribuyendo tanto en la construcción de nuevas funcionalidades como en la mejora de plataformas existentes, siempre enfocado en crear soluciones escalables, mantenibles y centradas en el usuario.',
+    expIntro3:
+      'He trabajado en entornos de desarrollo colaborativos, participando activamente en revisión de código, implementación de buenas prácticas y evolución de arquitecturas modernas, lo que me ha permitido adaptarme rápidamente a distintos dominios de negocio y tecnologías.',
+    expIntro4:
+      'A continuación, presento algunos de los proyectos más relevantes en los que he participado a lo largo de mi trayectoria profesional.',
+
     // Experience data
     exp1Company: 'Pragma SA.',
     exp1Role: 'Middle Senior Frontend Developer',
     exp1Period: '2024 — Presente',
     exp1Duration: '+2 años',
     exp1Desc:
-      'Liderando la arquitectura frontend y trabajando con 5 clientes distintos en proyectos de alto impacto. Responsable de definir estándares de código, code reviews y mentoring del equipo.',
+      'Participación en el desarrollo y evolución de múltiples plataformas digitales, contribuyendo en la implementación de funcionalidades clave, mejoras de rendimiento y mantenimiento de aplicaciones en producción, trabajando de manera colaborativa bajo metodologías ágiles.',
     exp2Company: 'Siempre.NET',
     exp2Role: 'Frontend Developer',
     exp2Period: 'Jul. 2022 — Sept. 2022',
@@ -161,25 +191,30 @@ export const translations = {
     exp2Desc:
       'Responsable de desarrollar y mantener interfaces, creando componentes reutilizables y un diseño responsivo para ofrecer una experiencia de usuario intuitiva, moderna y visualmente atractiva.',
 
-    // Projects
-    proj1Name: 'Fintech Dashboard',
+    // Projects — Pragma
+    proj1Name: 'Crezi',
     proj1Desc:
-      'Panel financiero en tiempo real con visualización de datos complejos, reportes interactivos y gestión de portafolios.',
-    proj2Name: 'E-Commerce Platform',
+      'Plataforma interna de gestión de assessments y seguimiento de las rutas de crecimiento profesional de los colaboradores de la empresa. Permitía centralizar información sobre evaluaciones, logros y progreso de cada empleado, facilitando la gestión del talento y el desarrollo profesional dentro de la organización.',
+    proj2Name: 'Seguros Mundial',
     proj2Desc:
-      'Plataforma de ventas con catálogo dinámico, carrito de compras, pasarela de pagos y panel de administración.',
-    proj3Name: 'SaaS Admin Panel',
+      'Participé en el desarrollo de evolutivos para el e-commerce de venta de seguros, implementando mejoras y nuevas funcionalidades en diferentes micro-frontends de la plataforma, contribuyendo a optimizar la experiencia de compra y la gestión de los productos aseguradores.',
+    proj3Name: 'Dislicores',
     proj3Desc:
-      'Panel de administración multi-tenant con roles, permisos, analytics y gestión de suscripciones.',
-    proj4Name: 'Plataforma  Sinai',
+      'Desarrollé una prueba de concepto (POC) que integraba un agente de inteligencia artificial mediante un chatbot, orientado a apoyar a los administradores de la empresa en consultas y acceso a información relevante de forma conversacional.',
+    proj4Name: 'Grupo Mutual',
     proj4Desc:
-      'Plataforma educativa que centraliza y automatiza los procesos académicos en un solo sistema, proporcionando a directivos, docentes y estudiantes herramientas para la gestión, trazabilidad, reportes y seguimiento en tiempo real, facilitando la toma de decisiones.',
-    proj6Name: 'Corporate Website Redesign',
+      'Participé en el desarrollo de la plataforma principal del banco, como parte de un proceso de migración progresiva del sitio web anterior hacia una arquitectura moderna. El proyecto se trabajó bajo un enfoque de microservicios, logrando posicionar el sitio como uno de los mejor valorados en Costa Rica.',
+    proj5Name: 'Protección',
+    proj5Desc:
+      'Estuve a cargo del desarrollo de evolutivos y mejoras para los módulos de simuladores y perfilador financiero de la plataforma digital de la aseguradora, contribuyendo a mejorar las herramientas que permiten a los usuarios analizar y planificar sus decisiones financieras.',
+    proj6Name: 'Asulado',
     proj6Desc:
-      'Rediseño completo del sitio corporativo con enfoque mobile-first, SEO optimizado y CMS headless.',
-    proj7Name: 'Internal Tools Dashboard',
+      'Actualmente participo en el desarrollo de una plataforma enfocada en la digitalización y modernización de un complejo sistema de pagos, contribuyendo en la implementación de nuevas funcionalidades y optimización de procesos dentro del ecosistema de la plataforma.',
+
+    // Projects — Siempre.NET
+    proj7Name: 'Plataforma Sinai',
     proj7Desc:
-      'Herramientas internas para gestión de inventario y reportes del equipo de operaciones.',
+      'Plataforma educativa que centraliza y automatiza los procesos académicos en un solo sistema, proporcionando a directivos, docentes y estudiantes herramientas para la gestión, trazabilidad, reportes y seguimiento en tiempo real, facilitando la toma de decisiones.',
 
     // Stack
     stackLabel: 'Stack Técnico',
@@ -199,23 +234,28 @@ export const translations = {
     // Blog
     navBlog: 'Blog',
     blogLabel: 'Blog',
-    blogSubtitle: 'Reflexiones sobre arquitectura frontend, herramientas y lecciones aprendidas construyendo productos a escala.',
+    blogSubtitle:
+      'Reflexiones sobre arquitectura frontend, herramientas y lecciones aprendidas construyendo productos a escala.',
     blogMinRead: 'min lectura',
     readMore: 'Leer más',
     blog1Title: 'De Redux a Zustand: Una Historia de Migración',
-    blog1Excerpt: 'Cómo migramos una app React a gran escala de Redux a Zustand — reduciendo boilerplate un 80% y el bundle un 12%.',
+    blog1Excerpt:
+      'Cómo migramos una app React a gran escala de Redux a Zustand — reduciendo boilerplate un 80% y el bundle un 12%.',
     blog1Date: 'Ene 2025',
     blog1Tag: 'State Management',
     blog2Title: 'Testing de Componentes React: El Camino Pragmático',
-    blog2Excerpt: 'Una regresión silenciosa me enseñó por las malas por qué testear componentes React importa más que los números de cobertura.',
+    blog2Excerpt:
+      'Una regresión silenciosa me enseñó por las malas por qué testear componentes React importa más que los números de cobertura.',
     blog2Date: 'Nov 2024',
     blog2Tag: 'Testing',
     blog3Title: 'Design Tokens + Tailwind v4: Guía Práctica',
-    blog3Excerpt: 'Cómo Tailwind v4 finalmente hace de los design tokens ciudadanos de primera clase con la nueva directiva @theme.',
+    blog3Excerpt:
+      'Cómo Tailwind v4 finalmente hace de los design tokens ciudadanos de primera clase con la nueva directiva @theme.',
     blog3Date: 'Sep 2024',
     blog3Tag: 'Design Systems',
     blog4Title: 'Micro-Frontends: Cuándo (No) Usarlos',
-    blog4Excerpt: 'Dos proyectos, resultados opuestos. Un framework de decisión para evaluar la arquitectura micro-frontend.',
+    blog4Excerpt:
+      'Dos proyectos, resultados opuestos. Un framework de decisión para evaluar la arquitectura micro-frontend.',
     blog4Date: 'Jul 2024',
     blog4Tag: 'Arquitectura',
     blogBackToArticles: 'Volver a artículos',

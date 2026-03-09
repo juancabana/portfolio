@@ -30,7 +30,7 @@ export const siteConfig = {
   navItems: [
     { labelKey: 'navExperience', href: '#experience' },
     { labelKey: 'navStack', href: '#stack' },
-    { labelKey: 'navBlog', href: '#blog' },
+    // { labelKey: 'navBlog', href: '#blog' },
     { labelKey: 'navContact', href: '#contact' },
   ] satisfies NavItem[],
 
