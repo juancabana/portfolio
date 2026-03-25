@@ -89,25 +89,52 @@ const sectionRef = ref<HTMLElement | null>(null)
           </p>
         </div>
 
-        <!-- AWS Certificate Badge -->
-        <div
-          class="mt-8 inline-flex items-center gap-3 px-4 py-3 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-default transition-all duration-300 hover:scale-[1.03] hover:border-accent-blue animate-slide-up"
-          style="animation-delay: 1.4s"
-        >
-          <div class="animate-icon-wobble">
-            <Award class="w-5 h-5 text-accent-blue shrink-0" />
-          </div>
-          <div>
-            <p style="font-family: 'Inter', sans-serif; font-size: 0.8rem; font-weight: 400">
-              {{ t.awsBadgeTitle }}
-            </p>
-            <p
-              class="text-muted-foreground/50"
-              style="font-family: 'Space Mono', monospace; font-size: 0.6rem"
-            >
-              {{ t.awsBadgeSubtitle }}
-            </p>
-          </div>
+        <!-- AWS Certificate Badges -->
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href="https://www.credly.com/badges/ccd4af96-b701-4743-bd55-a6cbc1e44dab/linked_in?t=spj3y5"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 px-4 py-3 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:border-accent-blue animate-slide-up no-underline"
+            style="animation-delay: 1.4s; text-decoration: none"
+          >
+            <div class="animate-icon-wobble">
+              <Award class="w-5 h-5 text-accent-blue shrink-0" />
+            </div>
+            <div>
+              <p style="font-family: 'Inter', sans-serif; font-size: 0.8rem; font-weight: 400">
+                {{ t.awsBadgeCloudTitle }}
+              </p>
+              <p
+                class="text-muted-foreground/50"
+                style="font-family: 'Space Mono', monospace; font-size: 0.6rem"
+              >
+                {{ t.awsBadgeCloudSubtitle }}
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://www.credly.com/badges/ac895059-7ab4-4cc9-a5e0-9a437cb92652/linked_in?t=tcekuf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 px-4 py-3 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:border-accent-blue animate-slide-up no-underline"
+            style="animation-delay: 1.55s; text-decoration: none"
+          >
+            <div class="animate-icon-wobble">
+              <Award class="w-5 h-5 text-accent-blue shrink-0" />
+            </div>
+            <div>
+              <p style="font-family: 'Inter', sans-serif; font-size: 0.8rem; font-weight: 400">
+                {{ t.awsBadgeAITitle }}
+              </p>
+              <p
+                class="text-muted-foreground/50"
+                style="font-family: 'Space Mono', monospace; font-size: 0.6rem"
+              >
+                {{ t.awsBadgeAISubtitle }}
+              </p>
+            </div>
+          </a>
         </div>
       </div>
 

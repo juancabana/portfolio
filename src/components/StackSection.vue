@@ -49,26 +49,58 @@ const filtered = computed(() =>
         </p>
       </div>
 
-      <!-- AWS Certificate Highlight -->
+      <!-- AWS Certificate Highlights -->
       <div
-        class="mb-12 flex items-center gap-4 px-5 py-4 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-default transition-all duration-300 hover:scale-[1.02] hover:border-accent-blue"
-        :class="isInView ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-5 scale-95'"
-        style="transition-delay: 0.2s"
+        class="mb-12 flex flex-wrap gap-4"
+        :class="isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'"
+        style="transition-delay: 0.2s; transition: all 0.5s"
       >
-        <div class="animate-icon-wobble">
-          <Award class="w-6 h-6 text-accent-blue shrink-0" />
-        </div>
-        <div>
-          <p style="font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 400">
-            {{ t.awsCertTitle }}
-          </p>
-          <p
-            class="text-muted-foreground/50 mt-0.5"
-            style="font-family: 'Space Mono', monospace; font-size: 0.65rem"
-          >
-            {{ t.awsCertDesc }}
-          </p>
-        </div>
+        <a
+          href="https://www.credly.com/badges/ccd4af96-b701-4743-bd55-a6cbc1e44dab/linked_in?t=spj3y5"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 px-5 py-4 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:border-accent-blue no-underline"
+          :class="isInView ? 'opacity-100 scale-100' : 'opacity-0 scale-95'"
+          style="text-decoration: none"
+        >
+          <div class="animate-icon-wobble">
+            <Award class="w-6 h-6 text-accent-blue shrink-0" />
+          </div>
+          <div>
+            <p style="font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 400">
+              {{ t.awsCertCloudTitle }}
+            </p>
+            <p
+              class="text-muted-foreground/50 mt-0.5"
+              style="font-family: 'Space Mono', monospace; font-size: 0.65rem"
+            >
+              {{ t.awsCertCloudDesc }}
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.credly.com/badges/ac895059-7ab4-4cc9-a5e0-9a437cb92652/linked_in?t=tcekuf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 px-5 py-4 rounded-lg border border-accent-blue/20 bg-accent-blue-subtle cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:border-accent-blue no-underline"
+          :class="isInView ? 'opacity-100 scale-100' : 'opacity-0 scale-95'"
+          style="text-decoration: none"
+        >
+          <div class="animate-icon-wobble">
+            <Award class="w-6 h-6 text-accent-blue shrink-0" />
+          </div>
+          <div>
+            <p style="font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 400">
+              {{ t.awsCertAITitle }}
+            </p>
+            <p
+              class="text-muted-foreground/50 mt-0.5"
+              style="font-family: 'Space Mono', monospace; font-size: 0.65rem"
+            >
+              {{ t.awsCertAIDesc }}
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Filters -->
